@@ -5,10 +5,7 @@ import FeedList from './FeedList';
 import StoryPage from './StoryPage';
 
 function App() {
-  const defaultFeedUrls = [
-    'https://techcrunch.com/startups/feed/',
-    'https://medium.com/feed/backchannel'
-  ];
+  const defaultFeedUrls = ['https://medium.com/feed/backchannel'];
 
   const [feeds, setFeeds] = useState([]);
   const [bookmarks, setBookmarks] = useState(
